@@ -1,7 +1,10 @@
 package thread;
 
 import java.util.Scanner;
-
+/*
+    启动2个子线程
+    线程1一直输出1-100的随机整数，直到线程2输入Q退出，结束进程
+ */
 public class ThreadPractice01 {
     public static void main(String[] args) {
         P1 p1 = new P1();
